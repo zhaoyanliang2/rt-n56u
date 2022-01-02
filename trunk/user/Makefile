@@ -112,6 +112,7 @@ dir_y						+= mtd_write
 dir_y						+= networkmap
 dir_y						+= httpd
 dir_y						+= www
+dir_y                                           += bwmon
 dir_y						+= rc
 dir_$(CONFIG_FIRMWARE_INCLUDE_ANTFS)		+= antfs
 dir_$(CONFIG_FIRMWARE_INCLUDE_NAPT66)		+= napt66
